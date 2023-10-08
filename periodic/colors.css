@@ -1,0 +1,62 @@
+/* --------- Color code -----------
+Non-metals: #00B6BC;
+Transition metal: #4fbb62
+Post transition metals: #F53951; 
+Alkaline earth: #00B6BC;
+Metalloid: #ffa500;
+Halogen: #ff4500;
+Noble gas: #ce07ad
+Lanthanides: #ce07ad;
+Actinides: #00B6BC;
+Box: #ffffff80;
+----------------------------------
+* /
+
+
+/* Glassphormisim */
+.box {
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(20.0px);
+   -webkit-backdrop-filter: blur(3.0px);
+   border: 1px solid rgba(255, 255, 255, 0.10);
+   border-radius: 3px; 
+}
+
+.box:hover {
+   background:rgba(255, 255, 255, 0.50);
+   border: 1px solid rgba(255, 255, 255, 0.80);
+}
+
+/* Alkaline Metal & Metalloid */
+.alkali-metal,
+.metalloid {
+   background: #ebd55a;
+}
+
+/* Alkaline Earth, Non Metal & Actinides*/
+.alkaline-earth,
+.non-metals,
+.actinides  {
+   background: #79dfe2;
+}
+
+/* Transition Metals */
+.transition-metals {
+   background: #9ae6a8;
+}
+
+/* Post Transition */
+.post-transition-metals {
+   background: #f58897;
+}
+
+/* Hallogen */
+.halogen {
+   background: #f19063e0;
+}
+
+/* Noble Gas & Lanthanides */
+.noble-gas,
+.lanthanides {
+   background: #ebb1d4b9;
+}
